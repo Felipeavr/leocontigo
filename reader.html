@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Leo Contigo</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/reader.css">
+		
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500,400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/introLoader.min.css">
+	 <link rel="shortcut icon" "/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.introLoader.pack.min.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78493830-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+        
+
+     
+</head>
+<body>
+   
+  <div id="element" class="introLoading"></div>
+    
+   <div class="contenedor">
+      
+       
+       <div class="reader">
+          <div class="bordes">
+             <div class="onoff" title="on-off"></div>
+              <div class="hand"></div>
+                <div class="handown"></div>
+         
+           <div class="screen">
+             
+              <div class="nav">
+             
+               <div class="hora"><div id="reloj"></div></div>
+               <div class="menu">
+                   <div class="mleft">
+                      <a href="http://www.leocontigo.cl"><div id="home" title="Inicio"></div></a>
+                      <div id="luz" title="Portada"></div>
+                      <div id="list" title="Índice"></div>
+                   </div>
+                   <div class="mright" title="Menú"></div>
+               </div>
+               
+                <div id="menudiss" class="menudis">
+                   
+                      <ul>
+                        <a href="http://www.leocontigo.cl"><li id="inicio" >Inicio</li></a>
+                         <a href="nosotros.html"><li id="nosotros">Nosotros</li></a>
+                         <a href="talleres.html"><li id="servicios">Talleres</li></a>
+                         <a href="contacto.html"><li id="videos">Contacto</li></a>
+                         <a href="escritores.html"><li id="contacto">Escritores</li></a>
+                         <a class="activo" href="reader.html"><li id="comentarios">Cuentos</li></a>
+                         <a href="galeria.html"><li id="comentarios">Galería</li></a>
+                    </ul>
+                </div>
+               </div>
+                  <div class="navhover"></div>
+               
+               
+                <div class="screenbajo">
+                <div id="content" class="contenido">
+                    
+                    
+                </div>
+             </div>
+              <div class="apagado"></div>
+           </div>
+              <div class="ereader">LeoContigo©2016</div>
+           
+       </div>
+       
+       
+       
+     </div>
+     
+       
+         
+         
+          
+   </div>
+   
+  
+   
+   
+    <script src="js/reader.js"></script>
+  
+   <script src="js/fondo.js"></script>
+  
+   
+ <script>
+  $(document).ready(function() {
+    $("#element").introLoader();
+      
+ });  
+ </script>   
+
+    
+<script>
+  function startTime(){
+today=new Date();
+h=today.getHours();
+m=today.getMinutes();
+s=today.getSeconds();
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('reloj').innerHTML=h+":"+m;
+t=setTimeout('startTime()',500);}
+function checkTime(i)
+{if (i<10) {i="0" + i;}return i;}
+window.onload=function(){startTime();}
+</script>
+
+
+
+
+<script>
+   
+$(document).ready( function() {
+   
+        $("#content").load("html/home.html");
+    });
+
+    
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("#luz").click(function(){
+        $("#content").load("html/home.html");
+         $('.nav').css('top','-100%');
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#list").click(function(){
+        $("#content").load("html/indice.html");
+         $('.nav').css('top','-100%');
+        
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+    
+   $('.mright').on('click', function() {
+	$('.mright').toggleClass('botone');
+});
+    
+</script>
+
+
+
+    
+    
+    
+  
+ 
+    
+
+
+        
+</body>
+
+
+</html>
