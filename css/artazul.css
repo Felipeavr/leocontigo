@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding:0px;
+
+} 
+/* Comentario */
+menubar {
+    background: #1fbbee;
+}
+
+.a:hover {color:#b5f5fd;}
+
+
+
+.book_art {
+    background: #1fbbee;
+   
+}
+
+.resena_art {
+    color: white;
+}
+
+#recomendar_art {
+    color: #b5f5fd;
+     border-bottom: 1px solid #46d2e5;
+}
+
+.cabresbl_art {
+    border-bottom: 1px solid #46d2e5;
+}
+
+.redes_art {
+    background: #1fbbee;
+}
+
+.book_arti {
+    background: #1fbbee;
+   
+}
+
+.listartt {
+     color: white;
+      
+}
+
+.artr01 {
+       border-bottom: 1px solid #46d2e5;
+}
+
+#pcabres {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+     color:#b5f5fd;
+}
+
+#faceu {
+    background-image: url(../images1/faceuwe.png);
+   
+}
+
+#instu {
+   
+    background: #b5f5fd;
+    background-image: url(../images1/instau.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.logo {
+	background-image: url(../images1/leologo3.png);
+}
+
+#twitteru {
+   
+    background-color: #b5f5fd;
+    background-image: url(../images1/twitteruu.png);
+   
+}

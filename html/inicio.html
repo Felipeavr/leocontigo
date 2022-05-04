@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>INICIO</title>
+    
+    <link rel="stylesheet" href="../css/reader.css">
+ 
+</head>
+<body>
+    
+    <div id="content" class="contenido">
+        <div class="cuadroc">
+          <div id="flechainii"></div>
+          <div id="flechainid"></div>
+          
+     <p id="parrafoin"><span>PRÓLOGO</span></br></br>
+     
+     Había una vez…</br></br>
+
+Un niño que se enamoró de la lectura.</br></br>
+
+Nadie le había dicho que leer era bueno, pero siempre vió leer a su papá.</br>
+¡Qué entretenido debe ser leer! – Dijo el niño.</br></br>
+
+
+<div class="dibujo_01"></div>
+
+
+<div id="pagina">Pag. 1</div></p>
+
+      
+</div>
+        
+ 
+    </div>
+    
+<script>
+    $(document).ready(function(){
+    $("#flechainid").click(function(){
+        $("#content").load("html/inicio2.html");
+      });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+    $("#flechainii").click(function(){
+        $("#content").load("html/home.html");
+      });
+});
+</script>
+
+</body>
+</html>

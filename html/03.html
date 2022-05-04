@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/reader.css">
+ 
+</head>
+<body>
+    
+    <div id="content" class="contenido">
+        <div class="cuadron">
+          
+         <div id="flechanosi"></div>
+         <div id="flechanosd"></div>
+           <p id="parrafonos">
+            
+            El patito decidió que debía buscar un lugar donde pudiese encontrar amigos que de verdad le quisieran a pesar de su desastroso aspecto y una mañana, muy temprano, antes de que se levantase el granjero, huyó por un agujero del cercado.
+
+               <span class="pato2"><img src="images1/pato02.jpg" alt=""></span>
+           
+             Así llego a otra granja, donde una anciana le recogió y el patito feo creyó que había encontrado un sitio donde por fin le querrían y cuidarían, pero se equivocó también, porque la vieja era mala y sólo quería que el pobre patito le sirviera de primer plato. Y también se fue de aquí corriendo.<br><br>
+            
+           </p>
+           <div id="pagina">Pag. 8</div>  
+        </div>
+        
+         
+    </div>
+    
+    
+    
+ <script>
+    $(document).ready(function(){
+    $("#flechanosi").click(function(){
+        $("#content").load("html/02.html");
+    
+        
+      
+    });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+    $("#flechanosd").click(function(){
+        $("#content").load("html/04.html");
+     });
+});
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

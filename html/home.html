@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="..css/reader.css">
+    
+  
+</head>
+<body>
+    
+    <div id="content" class="contenido3">
+        <div class="cuadroh" title="portada">
+           <div class="logop"></div>
+           <div class="redesoc">
+             <a href="https://www.facebook.com/leocontigo" target="_blank"><div id="faceu" title="Facebook"></div></a>
+             <a href="https://www.instagram.com/yoleocontigo" target="_blank"><div id="instu" title="Instagram"></div></a>
+            <a href="https://twitter.com/Leo_Contigo" target="_blank"><div id="twitteru" title="twitter"></div></a>
+         </div>  
+          
+             
+         <div id="flechahomd"></div>
+        </div>
+       
+    </div>
+    
+   <script>
+    $(document).ready(function(){
+    $("#flechahomd").click(function(){
+        $("#content").load("html/inicio.html");
+        $('.navhover').css('border','0px');
+          $('.handown').css('display','none');
+      });
+});
+</script>
+
+</body>
+</html>

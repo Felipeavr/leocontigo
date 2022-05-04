@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/reader.css">
+    
+ 
+</head>
+<body>
+    
+    <div id="content" class="contenido">
+        <div class="cuadron">
+          
+         <div id="bflechanosi"></div>
+         <div id="flechanosd"></div>
+            <p id="parrafonos">
+              
+              <p id="cuentotitulo">EL<br>PATITO<br>FEO</p>
+               
+
+           
+
+          
+           
+           
+           
+           </p>
+           <div id="pagina">Pag. 5</div>  
+        </div>
+        
+         
+    </div>
+    
+    
+    
+ <script>
+    $(document).ready(function(){
+    $("#bflechanosi").click(function(){
+        $("#content").load("html/indice.html");
+        
+        
+      
+    });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+    $("#flechanosd").click(function(){
+        $("#content").load("html/01.html");
+     });
+});
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

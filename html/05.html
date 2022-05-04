@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/reader.css">
+ 
+</head>
+<body>
+    
+    <div id="content" class="contenido">
+        <div class="cuadron">
+          
+         <div id="flechanosi"></div>
+         <div id="bflechanosd"></div>
+           <p id="parrafonos">
+             
+             ¡Durante el largo invierno se había transformado en un precioso cisne!<br><br>
+             Aquel patito feo y desgarbado era ahora el cisne más blanco y elegante de todos cuantos había en el estanque.<br><br>
+             Así fue como el patito feo se unió a los suyos y vivió feliz para siempre. 
+
+            <span class="pato2"><img src="images1/pato03.png" alt=""></span>
+         
+            Fin.
+           
+           
+           </p>
+           <div id="pagina">Pag. 10</div>  
+        </div>
+        
+         
+    </div>
+    
+    
+    
+ <script>
+    $(document).ready(function(){
+    $("#flechanosi").click(function(){
+        $("#content").load("html/04.html");
+         
+        
+      
+    });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+    $("#bflechanosd").click(function(){
+        $("#content").load("html/home.html");
+        
+        
+     });
+});
+</script>
+
+
+
+
+
+
+</body>
+</html>

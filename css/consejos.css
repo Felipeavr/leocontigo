@@ -1,0 +1,91 @@
+*.{
+    padding:0;
+    margin:0}
+
+.consejos {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.c001 {
+    width: 100%;
+    height: auto;
+      display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -webkit-align-items:center;
+    margin-bottom: 20px;
+}
+
+.cc1,.cc2,.cc3,.cc4,.cc5,.cc6,.cc7,.cc8,.cc9,.cc10,.cc11,.cc12,.cc13,.cc14,.cc15 {
+    width: 38px;
+     height: 38px;
+     -moz-border-radius: 25%;
+     -webkit-border-radius: 25%;
+     border-radius: 50%;
+     background: #c0212e;
+}
+.cc2 {background: #88bbd9;}
+.cc3 {background: #90b557;}
+.cc4 {background: #c4d7c7;}
+.cc5 {background: #86af8d;}
+.cc6 {background: #c0cb93;}
+.cc7 {background: #b92281;}
+.cc8 {background: #e2b643;}
+.cc9 {background: #0a2f87;}
+.cc10 {background: #a4b32d;}
+.cc11{background: #727bb4;}
+.cc12 {background: #599a82;}
+.cc13 {background: #c277a7;}
+.cc14 {background: #102978;}
+.cc15 {background: #6483bd;}
+
+#csj {
+    text-align: center;
+    line-height: 37px;
+    font-family: 'Source Sans pro',sans-serif;
+    color: white;
+    font-size:20px; 
+    font-weight: 600;
+    
+}
+
+.conse {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    
+}
+#csjo {
+    color: #4471b1;
+    font-size: 15px;
+}
+
+.fuente {
+    width: 60%;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    border:1px solid #dedede;
+  
+}
+#aff {
+    color:#22a6c6;
+}
+
+.liveu {
+    width: 40%;
+    height: auto;
+    margin: auto;
+} 
+.liveu img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
